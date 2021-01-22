@@ -46,7 +46,7 @@ $(function() {
     })
 
     // 用户登录
-    $('#form-login').on('click', function(e) {
+    $('#form-login').on('submit', function(e) {
         e.preventDefault()
         $.ajax({
             type: 'POST',
